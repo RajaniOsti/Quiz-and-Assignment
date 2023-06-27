@@ -31,8 +31,8 @@ The item is [17, 82, 39]
 The item is [40, 61, 10]
 """
 
-# todo: review [added by ghimiresdp]
-
+# todo: review the lines below [added by ghimiresdp]
+# ------------------------------------------------------------------------------
 # Bonus: Try using nested foreach to access each item inside of the inner list
 for outer_item in numbers:
     for inner_item in outer_item:
@@ -58,6 +58,7 @@ for outer_item in numbers:
 
 # Finally clear the list multi using the clear() method and verify if the list is empty or not.
 
+# ------------------------------------------------------------------------------
 
 numbers.clear()
 print(numbers)          # []
